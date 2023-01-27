@@ -12,3 +12,4 @@
 # Languages 
 - Html
 - CSS
+- Javascript
