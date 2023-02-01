@@ -11,10 +11,314 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* ==========================================================================
+   Juliet's Styles 
+   ========================================================================== */
+   .main__container--toa-lower-image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 15rem; */
+    object-fit: cover;
+    height: 7rem;
+    gap: 2rem;
+    margin: auto;
+  }
+  
+  /*--footer--*/
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 5rem;
+    background-color: #16242f;
+    color: white;
+    padding: 3rem 10rem 5rem 10rem;
+  }
+  
+  .footer__peewee-herman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__peewee-herman-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.313rem;
+    
+  }
+  
+  .footer__peewee-herman-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__peewee-herman-image {
+    border-radius: 100%;
+    width: 8%;
+    height: 8%;
+  }
+  
+  .footer__peewee-herman-header {
+    margin: 0;
+  }
+  
+  .footer__peewee-herman-p {
+    font-size: 10px;
+  }
+
+
+  .footer__peewee-herman-hr-slider {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .footer__peewee-herman-hr-line1, hr{
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background-color: #168db7;
+  }
+  
+  .footer__peewee-herman-hr-line2, hr {
+    border: none;
+    background-color: #374550;
+    width: 90%;
+  }
+
+  .footer__lower-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    width: 80%;
+  }
+  /*column 1*/
+  .footer__lower-section-column1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 1.625rem;
+  }
+  
+  .footer__lower-section-column1-p {
+    font-size: 8px;
+  }
+  
+  .footer__lower-section-column1-hr-line{
+    border: none;
+    background-color: #21c183;
+  }
+
+  .footer__lower-section-column1-social-img1 {
+    background-color: #527cc4;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer__lower-section-column1-social-img2 {
+    background-color: #e46145;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__lower-section-column1-social-img3 {
+    background-color: #00b0e2;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer__lower-section-column1-social-img4 {
+    background-color: #f6679c;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer__lower-section-column1-social-img5 {
+    background-color: #fea501;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+    /*column 2*/
+  
+  .footer__lower-section-column2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+  }
+  
+  .footer__lower-section-column2-hr-line{
+    border: none;
+    background-color: #f8ba0d;
+    width: 110%;
+  }
+
+  .footer__lower-section-column2-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .6rem;
+    margin-top: -1.625rem;
+  }
+  
+  .footer__lower-section-column2-top-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .6rem;
+  }
+  .footer__lower-section-column2-top-img-img1 {
+    width: 33%;
+    object-fit: contain;
+  }
+  .footer__lower-section-column2-top-img-img2 {
+    width: 33%;
+    object-fit: contain;
+  }
+  .footer__lower-section-column2-top-img-img3 {
+    width: 33%;
+    object-fit: contain;
+  }
+  
+  .footer__lower-section-column2-bottom-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .6rem;
+  }
+  
+  .footer__lower-section-column2-bottom-img-img1 {
+    width: 33%;
+    object-fit: contain;
+  }
+  
+  .footer__lower-section-column2-bottom-img-img2 {
+    width: 33%;
+    object-fit: contain;
+  }
+  
+  .footer__lower-section-column2-bottom-img-img3 {
+    width: 33%;
+    object-fit: contain;
+  }
+  
+    /*column 3*/
+
+  .footer__lower-section-column3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .footer__lower-section-column3-hr-line{
+    border: none;
+    background-color: #de6262;
+  }
+
+  .footer__lower-section-column3-header{
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer__lower-section-column3-p-section-p1{
+    font-size: 8px;
+  }
+  
+  .footer__lower-section-column3-p-section-p2{
+    font-size: 8px;
+  }
+  
+  .footer__lower-section-column3-tweet1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer__lower-section-column3-tweet2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+    /*column 4*/
+
+  .footer__lower-section-column4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+  }
+  
+  .footer__lower-section-column4-hr-line{
+    border: none;
+    background-color: #1bade6;
+  }
+
+  .footer__lower-section-column4-p{
+    font-size: 8px;
+    margin-top:-1.625rem;
+  }
+  
+  i{
+    color: white;
+  }
+  
+  .footer__lower-section-social {
+    display: flex;
+    flex-direction: row;
+    gap: 0.063rem;
+  }
+  
+  .footer__lower-section-column4-email-form {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer__lower-section-column4-email-form-input {
+    background-color: #de6262;
+    padding: 12px 8px;
+    border: none;
+  }
+  
+  .footer__lower-section-column4-email-form-input, ::placeholder {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .footer__lower-section-column4-paperplane-icon {
+    background-color: #ffb901;
+    width: 10%;
+    padding: 12px 8px;
+    display: flex;
+    justify-content: center;
+  }
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+}
+
+
+*{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*
@@ -260,4 +564,5 @@ textarea {
     page-break-after: avoid;
   }
 }
+
 
