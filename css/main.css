@@ -11,6 +11,234 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+/* ==========================================================================
+   Jimmy Styles 
+   ========================================================================== */
+
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+  /**/
+}
+
+
+/* 1.2 Core Styling */
+
+
+/* refer to https://css-tricks.com/box-sizing/ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* 1.3 Typgraphy */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+
+/* ==========================================================================
+      2. LAYOUT
+      ========================================================================== */
+
+
+/* Helper to display empty layout containers*/
+
+div,
+main,
+section,
+footer,
+header {
+  min-height: 1rem;
+  /* padding: 1rem; */
+}
+
+
+/* 2.1 Core layout */
+
+.row {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.col {
+  position: relative;
+}
+
+.col__navigation-icon {
+  display: flex;
+  justify-content: end;
+  color: white;
+  align-items: center;
+}
+
+.nav__button-home {
+  background-color: #25c389;
+  width: 6rem;
+}
+
+.nav__button-pages {
+  background-color: #ffb901;
+  width: 6rem;
+}
+
+.nav__button-blog {
+  background-color: #de6262;
+  width: 6rem;
+}
+
+.nav__button-portfolio {
+  background-color: #1691bd;
+  width: 6rem;
+}
+
+.nav__button-contact {
+  background-color: #166ba2;
+  width: 6rem;
+}
+
+
+/* 2.2 Small only */
+
+@media screen and (max-width: 39.9375em) {
+  .s-hide {
+    display: none;
+  }
+}
+
+
+/* 2.3 medium and up */
+
+@media screen and (min-width: 40em) {
+  .row {
+    max-width: 70rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+  }
+
+  .m-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .m-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .m-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .m-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .m-1-2 {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+
+/* 2.4 Medium only */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .m-row-span {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .m-hide {
+    display: none;
+  }
+}
+
+
+/* 2.5 large screens and up 2.6 Large only */
+
+@media screen and (min-width: 64em) {
+  .l-col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .l-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .l-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .l-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .l-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .l-row-span {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+  .l-hide {
+    display: none;
+  }
+}
+
+.main__content-p {
+  display: flex;
+  justify-content: center;
+}
+
+.col__navigation-icon {
+  display: flex;
+  justify-content: end;
+  color: white;
+  margin-top: -.5rem;
+
+}
+
+
+
 /* ==========================================================================
    Juliet's Styles 
    ========================================================================== */
