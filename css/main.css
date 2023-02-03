@@ -95,6 +95,8 @@ header {
 
 .col {
   position: relative;
+  width: 12rem;
+  margin-top: 4rem;
 }
 
 .col__navigation-icon {
@@ -224,6 +226,20 @@ header {
   }
 }
 
+.main__content-header-h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+
+}
+
+.main__content-header-h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+
+}
+
 .main__content-p {
   display: flex;
   justify-content: center;
@@ -237,7 +253,26 @@ header {
 
 }
 
+.slider-img{
+  object-fit: contain;
+  height: 3rem;
+}
 
+.slider-img-snack1{
+  object-fit: cover;
+  height: 18rem;
+  width: 75rem;
+  margin-top: -4.3rem;
+  background-color: #ebebeb;
+}
+
+.img-row{
+  width: 6%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15rem;
+  gap: 60px;
+}
 
 /* ==========================================================================
    Juliet's Styles 
