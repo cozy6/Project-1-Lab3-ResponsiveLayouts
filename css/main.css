@@ -14,17 +14,20 @@
 /* ==========================================================================
    Juliet's Styles 
    ========================================================================== */
-   .main__container--toa-lower-image-gallery {
-    display: flex;
-    flex-direction: row;
+   .main__container--toa-lower-image-gallery-row {
+    display: grid;
+    grid-template-rows:repeat(5, 1fr);
     justify-content: center;
-    /* width: 15rem; */
     object-fit: cover;
     height: 7rem;
     gap: 2rem;
     margin: auto;
   }
   
+  .column {
+    display: grid;
+  }
+
   /*--footer--*/
   
   .footer {
