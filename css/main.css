@@ -350,14 +350,14 @@ header {
 
   .footer__lower-section-column1-social-img1 {
     background-color: #527cc4;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
   }
   .footer__lower-section-column1-social-img2 {
     background-color: #e46145;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
@@ -365,21 +365,21 @@ header {
   
   .footer__lower-section-column1-social-img3 {
     background-color: #00b0e2;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
   }
   .footer__lower-section-column1-social-img4 {
     background-color: #f6679c;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
   }
   .footer__lower-section-column1-social-img5 {
     background-color: #fea501;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
@@ -535,7 +535,7 @@ header {
   
   .footer__lower-section-column4-paperplane-icon {
     background-color: #ffb901;
-    width: 10%;
+    width: 16%;
     padding: 12px 8px;
     display: flex;
     justify-content: center;
